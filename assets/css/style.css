@@ -8,8 +8,12 @@
 }
 
 .imagem_texto{
+	position:relative;
+	left:80px;
 	display:flex;
-	text-align: center;
+	align-items: space-between;
+	width:1200px;
+
 }
 .main_t {
 	background-color: gold;
@@ -63,9 +67,11 @@
 
 .geral {
 	position: relative;
-	margin: 20px;
 	display: flex;
 	flex-direction: column;
+	left:420px;
+	text-align: center;
+
 }
 
 .equips {
@@ -74,7 +80,7 @@
 }
 
 .image1 {
-  width: 50%;
+  width: 500px;
   height: auto;
   white-space: inherit;
   position: relative;
@@ -93,9 +99,9 @@
 }
 
 .equipef {
-	width:5%;
+	width:50px;
 	height: auto;
-	position: sticky;
-	text-align: center;
+	position:relative;
+
 	margin-bottom: 34px;
 }
