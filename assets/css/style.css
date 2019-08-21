@@ -11,4 +11,5 @@ sec_t {
 image1 {
   width: 10%;
   height: auto;
+  position: static;
 }
