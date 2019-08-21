@@ -1,0 +1,14 @@
+main_t {
+	background-color: gold;
+}
+
+sec_t {
+	background-color: gold;
+	object-position: relative;
+	margin: 20px;
+}
+
+image1 {
+  width: 10%;
+  height: auto;
+}
