@@ -1,14 +1,13 @@
-main_t {
+.main_t {
 	background-color: gold;
 }
 
-sec_t {
-	background-color: gold;
+.sec_t {
 	object-position: relative;
 	margin: 20px;
 }
 
-image1 {
+.image1 {
   width: 10%;
   height: auto;
   position: static;
