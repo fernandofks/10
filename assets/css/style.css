@@ -1,5 +1,7 @@
 
 .garota{
+	position:relative;
+	top:10px;
 	width:100px;
 }
 
@@ -15,11 +17,22 @@
 
 
 .posicao_nome{
+	position:relative;
 	left:7px;
+	top:10px;
 }
 
 .faixa_preta{
+	position:relative;
 	background-color:black;
+	width:630px;
+	height:2px;
+	top:40px;
+}
+
+.inline_faixa{
+    display: flex;
+    justify-content: space-between;
 }
 
 .descricao{
@@ -58,15 +71,13 @@
 	text-align: right;
 	margin: 0px, 200px, 40px, 70px;
 	position: relative;
-
 }
 
 .image1 {
   width: 50%;
   height: auto;
   white-space: inherit;
-  position: relative;
-   
+  position: relative;   
 }
 
 .equipe {
