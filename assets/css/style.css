@@ -4,6 +4,7 @@
 
 .pessoa  {
 	position:relative;
+	text-align: center;
 }
 
 .imagem_texto{
@@ -14,8 +15,7 @@
 	background-color: gold;
 	text-align: center;
 }
-
-.posicao_nome  {
+.posicao_nome
 	left:7px;
 }
 
@@ -26,13 +26,13 @@
 .descricao  {
 	width:200px;
 	position:relative;
-	left:540px;
+	left:543px;
 }
 
 .palavra_categoria  {
 	position:relative;
 	left:600px;
-	top:50px;
+	top:100px;
 }
 
 .categorias  {
