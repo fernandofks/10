@@ -1,3 +1,4 @@
+
 .garota{
 	width:100px;
 
@@ -5,9 +6,13 @@
 
 .pessoa{
 	position:relative;
+}
+.main_t {
+	background-color: gold;
 	text-align: center;
 
 }
+
 
 .posicao_nome{
 
@@ -51,4 +56,36 @@
 }
 
 
+
+
+.sec_t {
+	position: relative;
+	text-align: center;
+	margin: 20px;
+}
+
+.image1 {
+  width: 50%;
+  height: auto;
+  position: static;
+}
+
+.equipe {
+	display: inline;
+	text-align: center;
+	padding-left: 50px;
+	padding-right:50px;
+}
+
+.equipep {
+	text-align: center;
+	padding: 20px;
+}
+
+.equipef {
+	width:50%;
+	height: auto;
+	position: static;
+	text-align: center;
+}
 
