@@ -7,7 +7,7 @@
 	text-align: center;
 }
 
-.imagem_texto{
+.imagem_texto {
 	position:relative;
 	left:80px;
 	display:flex;
@@ -102,6 +102,5 @@
 	width:50px;
 	height: auto;
 	position:relative;
-
 	margin-bottom: 34px;
 }
