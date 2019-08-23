@@ -41,8 +41,8 @@
 }
 
 .inline_faixa{
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .descricao  {
@@ -98,10 +98,10 @@
 }
 
 .image1 {
-  width: 500px;
-  height: auto;
-  white-space: inherit;
-  position: relative;   
+	width: 500px;
+	height: auto;
+	white-space: inherit;
+	position: relative;   
 
 }
 
@@ -121,6 +121,36 @@
 	width:50px;
 	height: auto;
 	position:relative;
-
 	margin-bottom: 34px;
 }
+
+.header{
+	border-style: solid;
+	position: relative;
+	border-width: 1px;
+	margin: 10px;
+	left: 500px;
+	top:8px;
+	width: 250px;
+}
+
+
+.intro{
+	position: relative;
+	margin: 30px;
+}
+
+.imagem{
+	margin:30px;
+	position: relative;
+}
+
+.nav-item{
+	background-color: yellow;
+	position: relative;
+	width: 1000px;
+	left: 150px;
+	top:100px;	
+
+}
+
