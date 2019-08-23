@@ -1,0 +1,59 @@
+.garota{
+	width:10%;
+	margin-top: 5rem;
+}
+
+.pessoa{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.descricao{
+	width:20rem;
+	text-align: center;
+}
+.inline_faixa{
+	display:flex;
+	justify-content: space-between;
+}
+
+.faixa_preta{
+	background-color:black;
+	width:48%;
+	height:0.05rem;
+	margin-top: 3rem;
+  	margin-bottom: 3rem;
+}
+
+.div_categorias{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+
+}
+
+.categoria_imagem{
+	width:80%;
+}
+
+
+.categorias{
+	display:flex;
+    justify-content: space-around;
+    width:100%;
+
+}
+.palavra_categoria{
+	margin:3rem;
+}
+.nome_categoria{
+
+}
+
+.alinhamento{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	width:40%;
+}
