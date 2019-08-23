@@ -32,7 +32,7 @@ align-items: center;
 }
 
 .categoria_imagem{
-	width:20rem;
+	max-width:20rem;
 }
 
 
