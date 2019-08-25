@@ -23,7 +23,7 @@
 	width:48%;
 	height:0.05rem;
 	margin-top: 3rem;
-  	margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 .div_categorias{
@@ -40,8 +40,8 @@
 
 .categorias{
 	display:flex;
-    justify-content: space-around;
-    width:100%;
+	justify-content: space-around;
+	width:100%;
 
 }
 .palavra_categoria{
