@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 /*
 
 >>>>>>> 227fa193acd8296f1f5b5870e34dba099784c095
@@ -131,7 +130,7 @@
 	margin: 10px;
 	left: 500px;
 	top:8px;
-	width: 250px; */
+	width: 250px; 
 }
 
 .topicos{
@@ -145,10 +144,9 @@
 	justify-content: center;
 	border-style: solid;
 	/* position: relative; */
-	/* margin: 30px; */
+	/* margin: 30px; 
 }
 
-/*
 .imagem{
 	margin:30px;
 	border: solid purple;
@@ -160,13 +158,12 @@
 .nav-item{ 
 	border: solid purple;
 	border-style: solid;
-	/*background-color: yellow;
+	background-color: yellow;
 	position: relative;
-<<<<<<< HEAD
-	/*width: 1000px;
-	/*left: 150px;
-	/*top:100px; */
-=======
+	width: 1000px;
+	left: 150px;
+	top:100px; 
+
 	width: 1000px;
 	left: 150px;
 	top:100px;	
@@ -174,4 +171,4 @@
 }
 
 */
->>>>>>> 227fa193acd8296f1f5b5870e34dba099784c095
+

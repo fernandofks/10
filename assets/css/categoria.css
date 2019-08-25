@@ -1,0 +1,54 @@
+.header{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center 
+	/* border-style: solid;
+	position: relative;
+	border-width: 1px;
+	margin: 10px;
+	left: 500px;
+	top:8px;
+	width: 250px; */
+}
+
+.topicos{
+	 display: flex;
+
+}
+
+.intro{
+
+	display: flex;
+	justify-content: center;
+	border-style: solid;
+	/* position: relative; */
+	/* margin: 30px; */
+}
+
+.item{
+	display:flex;
+	flex-direction: row;
+	margin:3rem;
+
+}
+
+.titulo_descricao{
+	margin-left: 2rem;
+}
+/*
+.imagem{
+	margin:30px;
+	border: solid purple;
+	/*position: relative; 
+	justify-content: left;
+	border-style: solid;
+}
+
+.nav-item{ 
+	border: solid purple;
+	border-style: solid;
+	/*background-color: yellow;
+	position: relative;
+	/*width: 1000px;
+	/*left: 150px;
+	/*top:100px; */
