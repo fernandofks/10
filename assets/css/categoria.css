@@ -3,32 +3,39 @@
 	display: flex;
 	justify-content: center;
 	line-height: 2;
-	font-size: 140%
+	font-size: 140%;
+	flex-direction: column;
+	text-align: center;
+
 }
 
 .topicos {
-  display: flex;
+	display: flex;
 }
 
 .intro{
 	display: flex;
 	justify-content: center;
 	border-style: solid;
+	line-height: 2.5rem;
 }
 
 .item {
-  display: flex;
-  flex-direction: row;
-  margin: 3rem;
+	display: flex;
+	flex-direction: row;
+	margin: 3rem;
 }
 
 .titulo_descricao{
 	margin-left: 2rem;
 	font-family: "Montserrat";
-	line-height: 1.25;
+	line-height: 1.25rem;
 }
 
-
-body{
+.tamanho_categoria{
+	font-size: 3rem;
+	line-height: 2.5rem;
+}
+.body{
 	font-family:"Lora", sans-serif;
 }
