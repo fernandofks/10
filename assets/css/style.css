@@ -142,15 +142,17 @@
 
 .imagem{
 	margin:30px;
-	position: relative;
+	/*position: relative;*/
 }
 
 .nav-item{
 	background-color: yellow;
-	position: relative;
-	width: 1000px;
+	/* position: relative; */
+	/* width: 1000px;
 	left: 150px;
-	top:100px;	
+	top:100px;	 */
+
+
 
 }
 
