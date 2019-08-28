@@ -35,6 +35,11 @@
 .titulo_descricao{
 	margin-left: 2rem;
 }
+
+
+body{
+	font-family:"Montserrat", sans-serif;
+}
 /*
 .imagem{
 	margin:30px;
