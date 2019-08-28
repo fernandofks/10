@@ -6,9 +6,8 @@
 	font-size: 140%
 }
 
-.topicos{
-	display: flex;
-
+.topicos {
+  display: flex;
 }
 
 .intro{
@@ -17,11 +16,10 @@
 	border-style: solid;
 }
 
-.item{
-	display:flex;
-	flex-direction: row;
-	margin:3rem;
-
+.item {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem;
 }
 
 .titulo_descricao{
