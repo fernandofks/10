@@ -1,33 +1,30 @@
-.header{
-	margin-top: 2rem;
-	display: flex;
-	justify-content: center 
+.header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
-.topicos{
-	display: flex;
-
+.topicos {
+  display: flex;
 }
 
-.intro{
-
-	display: flex;
-	justify-content: center;
-	border-style: solid;
+.intro {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
 }
 
-.item{
-	display:flex;
-	flex-direction: row;
-	margin:3rem;
-
+.item {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem;
 }
 
-.titulo_descricao{
-	margin-left: 2rem;
+.titulo_descricao {
+  margin-left: 2rem;
+  font-family: "Lora", serif;
 }
 
-
-body{
-	font-family:"Montserrat", sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
