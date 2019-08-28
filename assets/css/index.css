@@ -9,9 +9,16 @@
 	align-items: center;
 }
 
+.posicao_nome{
+	font-family: "Lora";
+	font-size:2rem;
+	line-height: 3rem;
+}
+
 .descricao{
 	width:20rem;
 	text-align: center;
+	line-height: 1.5rem;
 }
 .inline_faixa{
 	display:flex;
@@ -46,10 +53,10 @@
 }
 .palavra_categoria{
 	margin:3rem;
+	font-family: "Lora";
+	font-size:1.5rem;
 }
-.nome_categoria{
 
-}
 
 .alinhamento{
 	display:flex;
