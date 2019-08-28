@@ -1,5 +1,3 @@
-
-
 .garota{
 	position:relative;
 	top:10px;
@@ -17,20 +15,17 @@
 	display:flex;
 	align-items: space-between;
 	width:1200px;
-
 }
 .main_t {
 	background-color: gold;
 	text-align: center;
 }
 
-
 .posicao_nome{
 	position:relative;
 	left:7px;
 	top:10px;
 }
-
 
 .faixa_preta{
 	position:relative;
@@ -79,7 +74,6 @@
 .sec_t {
 	position: relative;
 	margin:20px;
-
 }
 
 .geral {
@@ -88,21 +82,18 @@
 	flex-direction: column;
 	left:420px;
 	text-align: center;
-
 }
 
 .equips {
 	position: static;
 	text-align: center;
-
 }
 
 .image1 {
 	width: 500px;
 	height: auto;
 	white-space: inherit;
-	position: relative;   
-
+	position: relative;
 }
 
 .equipe {
@@ -125,7 +116,11 @@
 }
 
 .header{
+	border: solid purple;
+	display: flex;
 	border-style: solid;
+	justify-content: center
+	/* border-style: solid;
 	position: relative;
 	border-width: 1px;
 	margin: 10px;
@@ -134,25 +129,41 @@
 	width: 250px;
 }
 
+.topicos{
+	 display: flex;
+	 border-style: solid;
+}
 
 .intro{
-	position: relative;
-	margin: 30px;
+	border: solid purple;
+	display: flex;
+	justify-content: center;
+	border-style: solid;
+	/* position: relative; */
+	/* margin: 30px;
 }
 
 .imagem{
 	margin:30px;
-	/*position: relative;*/
+	border: solid purple;
+	/*position: relative;
+	justify-content: left;
+	border-style: solid;
 }
 
 .nav-item{
+	border: solid purple;
+	border-style: solid;
 	background-color: yellow;
 	/* position: relative; */
 	/* width: 1000px;
 	left: 150px;
-	top:100px;	 */
+	top:100px;
 
-
+	width: 1000px;
+	left: 150px;
+	top:100px;
 
 }
 
+*/
