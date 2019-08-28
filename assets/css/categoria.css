@@ -1,7 +1,9 @@
 .header{
-	margin-top: 2rem;
+	margin-top: 1.5rem;
 	display: flex;
-	justify-content: center 
+	justify-content: center;
+	line-height: 2;
+	font-size: 140%
 }
 
 .topicos{
@@ -10,7 +12,6 @@
 }
 
 .intro{
-
 	display: flex;
 	justify-content: center;
 	border-style: solid;
@@ -25,9 +26,11 @@
 
 .titulo_descricao{
 	margin-left: 2rem;
+	font-family: "Montserrat";
+	line-height: 1.25;
 }
 
 
 body{
-	font-family:"Montserrat", sans-serif;
+	font-family:"Lora", sans-serif;
 }
