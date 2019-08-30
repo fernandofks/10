@@ -1,45 +1,45 @@
-.header{
-	margin-top: 1.5rem;
-	display: flex;
-	justify-content: center;
-	line-height: 2;
-	font-size: 140%;
-	flex-direction: column;
-	text-align: center;
-	background-color:#260101;
-	color:#f2c12e;
-	height:7rem;
+.header {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+  font-size: 140%;
+  flex-direction: column;
+  text-align: center;
+  background-color: #260101;
+  color: #f2c12e;
+  height: 7rem;
 }
 
 .topicos {
-	display: flex;
+  display: flex;
 }
 
-.intro{
-	display: flex;
-	justify-content: center;
-	border-style: solid;
-	line-height: 2.5rem;
+.intro {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  line-height: 2.5rem;
 }
 
 .item {
-	display: flex;
-	flex-direction: row;
-	margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  margin: 3rem;
 }
 
-.titulo_descricao{
-	margin-left: 2rem;
-	font-family: "Montserrat";
-	line-height: 1.25rem;
-	background-color:#a6978f;
+.titulo_descricao {
+  margin-left: 2rem;
+  font-family: "Montserrat";
+  line-height: 1.25rem;
+  color: #f2c12e;
 }
 
-.tamanho_categoria{
-	font-size: 3rem;
-	line-height: 2.5rem;
+.tamanho_categoria {
+  font-size: 3rem;
+  line-height: 2.5rem;
 }
-.body{
-	font-family:"Lora", sans-serif;
-
+.body {
+  font-family: "Lora", sans-serif;
+  background-color: #260101;
 }
