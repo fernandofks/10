@@ -27,6 +27,9 @@
   display:flex;
   text-align: center;
   flex-direction: column;
+  background-color: #260101;
+  color:#f2c12e;
+  height:4rem;
 }
 .geral{
   display:flex;
