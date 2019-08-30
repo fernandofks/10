@@ -26,13 +26,13 @@
 	display: flex;
 	flex-direction: row;
 	margin: 3rem;
-	background-color:#a6978f;
 }
 
 .titulo_descricao{
 	margin-left: 2rem;
 	font-family: "Montserrat";
 	line-height: 1.25rem;
+	background-color:#a6978f;
 }
 
 .tamanho_categoria{
