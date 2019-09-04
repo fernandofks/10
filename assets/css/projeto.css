@@ -7,13 +7,14 @@
   font-family: "Lora", serif;
   font-size: 3rem;
   line-height: 2rem;
+  color: #A53E03;
 }
 
 .sec_ts {
   font-family: "Lora", serif;
   font-size: 2rem;
   line-height: 2rem;
-  color: #f2cf63;
+  color: #183248;
 }
 
 .imagem_texto {
@@ -22,7 +23,7 @@
   margin-top: 2rem;
   margin-left: 10rem;
   margin-right: 10rem;
-  color: #f2cf63;
+  color: #2E5574    ;
 }
 .titulo {
   display: flex;
@@ -58,7 +59,7 @@
   font-family: "Lora", serif;
   font-size: 2rem;
   line-height: 1.5;
-  color: #f2c12e;
+  color: #C43A03;
 }
 
 .equipes {
@@ -72,7 +73,7 @@
   flex-direction: column;
   align-items: center;
   line-height: 2;
-  color: #f2cf63;
+  color: #2E5574;
   /* background-color: blue; */
 }
 
@@ -83,5 +84,5 @@
 
 .body {
   font-family: "Montserrat";
-  background-color: #260101;
+  background-color: #F2E9D8;
 }
