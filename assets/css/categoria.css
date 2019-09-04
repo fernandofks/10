@@ -49,15 +49,13 @@
   background-color: #260101;
 }
 
-@media (max-width: 68rem) {
+
+@media(max-width:68rem){
   .header {
     margin-top: 2rem;
     grid-template-columns: 1fr 1fr;
   }
-}
 
-
-@media(max-width:68rem){
   .topicos {
     margin-top: 2rem;
     
