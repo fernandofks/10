@@ -18,14 +18,14 @@
   font-family: "Lora";
   font-size: 2rem;
   line-height: 3rem;
-  color: #f2c12e;
+  color: #183248;
 }
 
 .descricao {
   width: 20rem;
   text-align: center;
   line-height: 1.5rem;
-  color: #f2cf63;
+  color: #2e5574;
 }
 .inline_faixa {
   display: flex;
@@ -33,7 +33,7 @@
 }
 
 .faixa_preta {
-  background-color: #f2c12e;
+  background-color: #a53e03;
   width: 48%;
   height: 0.05rem;
   margin-top: 3rem;
@@ -59,7 +59,7 @@
   margin: 3rem;
   font-family: "Lora";
   font-size: 1.5rem;
-  color: #f2c12e;
+  color: #2e5574;
 }
 
 .alinhamento {
@@ -70,5 +70,5 @@
 }
 .body {
   font-family: "Montserrat";
-  background-color: #260101;
+  background-color: #f2e9d8;
 }
