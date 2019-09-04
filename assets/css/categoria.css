@@ -6,8 +6,8 @@
   font-size: 140%;
   flex-direction: column;
   text-align: center;
-  background-color: #260101;
-  color: #f2c12e;
+  background-color: #f2e9d8;
+  color: #183248;
   height: 7rem;
 }
 
@@ -32,7 +32,7 @@
   margin-left: 2rem;
   font-family: "Montserrat";
   line-height: 1.25rem;
-  color: #f2c12e;
+  color: #34548c;
 }
 
 .tamanho_categoria {
@@ -41,5 +41,5 @@
 }
 .body {
   font-family: "Lora", sans-serif;
-  background-color: #260101;
+  background-color: #f2e9d8;
 }
