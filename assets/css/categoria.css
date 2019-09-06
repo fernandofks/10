@@ -49,6 +49,10 @@
   background-color: #f2e9d8;
 }
 
+.link{
+  color: #183248;
+}
+
 @media (max-width: 68rem) {
   .header {
     margin-top: 2rem;

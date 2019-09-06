@@ -60,7 +60,7 @@
 .palavra_categoria {
   margin: 3rem;
   font-family: "Lora";
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #2e5574;
 }
 
@@ -73,6 +73,11 @@
 .body {
   font-family: "Montserrat";
   background-color: #f2e9d8;
+}
+
+.nome_categoria{
+  font-size: 1rem;
+  color:#183248;
 }
 
 @media (max-width: 66rem){
