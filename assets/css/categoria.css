@@ -11,7 +11,7 @@
   height: 7rem;
 }
 
-.item_imagem{
+.item_imagem {
   width: 30%;
   height: 30%;
 }
@@ -34,7 +34,7 @@
   align-items: center;
 }
 
-.titulo_descricao {  
+.titulo_descricao {
   font-family: "Montserrat";
   line-height: 1.25rem;
   color: #34548c;
@@ -49,8 +49,7 @@
   background-color: #f2e9d8;
 }
 
-
-@media(max-width:68rem){
+@media (max-width: 68rem) {
   .header {
     margin-top: 2rem;
     grid-template-columns: 1fr 1fr;
@@ -58,22 +57,21 @@
 
   .topicos {
     margin-top: 2rem;
-    
-    }
+  }
   .item {
     flex-direction: column;
     text-align: center;
   }
 
   .intro {
-    margin-top:
+    margin-top: 2rem;
   }
 
-   .item_imagem {
-     margin-bottom: 2rem;
-     margin-top: 2.5rem;
-     width: 130px;
-     height: 130px;
-     border-radius: 100%;
+  .item_imagem {
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
   }
 }
