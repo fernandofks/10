@@ -12,8 +12,8 @@
 }
 
 .item_imagem {
-  width: 30%;
-  height: 30%;
+  width: 12rem;
+  height: 12rem;
 }
 
 .topicos {
@@ -74,8 +74,8 @@
   .item_imagem {
     margin-bottom: 2rem;
     margin-top: 2.5rem;
-    width: 130px;
-    height: 130px;
+    width: 8rem;
+    height: 8rem;
     border-radius: 100%;
   }
 }

@@ -3,6 +3,8 @@
 <head>
   <title>jogo</title>
   <meta charset="utf-8"/>
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/projeto.js"></script>
   <link href = "assets/css/reset.css" rel = "stylesheet"/>
   <link href = "assets/css/projeto.css" rel = "stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
@@ -12,46 +14,36 @@
   <div class="titulo">
     <br>
     <p class = "sec_t">
-      OSU
+      {{this.titulo}}
     </p>
   </div>
   <div class="imagem_texto">
-    <img class = "imagem_projeto" src="assets/img/osu.jpeg" alt="screenshot do jogo criado baseado no jogo OSU">
+    <img class = "imagem_projeto" src="https://picsum.photos/110/110/?random" alt="{{this.titulo}}">
 
     <div class = 'geral'>
 
       <h2 class = "sec_ts">Descrição</h2>
       <br>
       <p>
-        Criar um jogo em python parecido com o jogo OSU
+        {{this.descricao}}
       </p>
       <br>
       <h2 class = "sec_ts">Materiais</h2>
       <br>
       <p>
-        Python, Pygame, Editor de Texto
+        {{this.materiais}}
       </p>
     </div>
   </div>
   <div class = "equipeblock">
     <h2 class= "equipetitle">Equipe</h2>
     <div class = "equipes">
+      {{#each this.equipes}}
       <div class = "equipem1">
         <img class = "equipei" src="assets/img/equipe.png" alt="imagens dos membros da equipe">
-        <p>Amanda</p>
+        <p>{{this}}</p>
       </div>
-      <div class = "equipem2">
-        <img class = "equipei" src="assets/img/equipe.png" alt="imagens dos membros da equipe">
-        <p>Beatriz</p>
-      </div>
-      <div class = "equipem3">
-        <img class = "equipei" src="assets/img/equipe.png" alt="imagens dos membros da equipe">
-        <p>Fernando</p>
-      </div>
-      <div class = "equipem4">
-        <img class = "equipei" src="assets/img/equipe.png" alt="imagens dos membros da equipe">
-        <p>Sophia</p>
-      </div>
+      {{/each}}
     </div>
   </div>
 </body>

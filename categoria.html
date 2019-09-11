@@ -2,86 +2,37 @@
 <html lang = "pt-br">
 <head>
   <title> Projetos envolvendo 'categoria'</title>
+  <script type="text/javascript" src="assets/js/categoria.js"></script>
+  <script type="text/javascript" src="assets/js/codes.js"></script>
   <link href = "assets/css/reset.css" rel = "stylesheet">
   <link href = "assets/css/style.css" rel = "stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/categoria.css">
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
-
   <meta name = "viewport" content = "width=device-width, initial-scale = 1">
-
-
   <meta charset="utf-8">
-  <script type="text/javascript" src="assets/js/categoria.js"></script>
-  <script type="text/javascript" src="assets/js/codes.js"></script>
 
 </head>
 <body class="body">
   <header class="header">
     <h2>Projetos envolvendo</h2>
-    <h1 class="tamanho_categoria">'categoria'</h1>
+    <h1 class="tamanho_categoria">{{this.categoria}}</h1>
   </header>
 
   <main>
     <div>
       
       <ul>
+        {{#each projetos}}
         <li>
           <div class="item">
-            <img class = "item_imagem" src="https://picsum.photos/110/80/?random" alt = "Aplicativos de alunos para alunos">
-            <div class="titulo_descricao"><a class="link" href="projeto.html">Aplicativos de alunos para alunos</a>
-              <p class = "item_paragrafo"> Este é um projeto cujo objetivo é a criação de um app por meio das linguagens de programação aprendidas ao longo do curso de engenharia. O aplicativo direciona-se a sanar dúvidas e estabelecer contato entre os alunos visando um aprendizado concomitante e integrado. </p>
+            <img class = "item_imagem" src="https://picsum.photos/110/110/?random" alt = "{{this.titulo}}">
+            <div class="titulo_descricao"><a class="link" href="projeto.html?categoria={{this.categoria}}&projeto={{@key}}">{{this.titulo}}</a>
+              <p class = "item_paragrafo"> {{this.descricao}} </p>
             </div>
           </div>
         </li>
-        <li>
-          <div class="item">
-            <img class = "item_imagem" src="https://picsum.photos/110/80/?random" alt = "Fractais">
-            <div class="titulo_descricao"><a class="link" href="projeto.html">Fractais</a>
-              <p class = "item_paragrafo"> Projeto cujo objetivo é a introdução do conceito de limite e cálculo, relacionado às figuras chamadas fractais.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img class = "item_imagem" src="https://picsum.photos/110/80/?random" alt = "Nota e Frequência">
-            <div class="titulo_descricao"><a class="link" href="projeto.html">Nota e Frequência</a>
-              <p class = "item_paragrafo">
-                Foi feita uma análise da relação das notas dos alunos e a presença em atendimentos. A partir da análise de dados, foi possível formular conclusões que relacionavam as duas variáveis escolhidas.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img class = "item_imagem" src="https://picsum.photos/110/80/?random" alt = "OSU">
-            <div class="titulo_descricao"><a class="link" href="projeto.html">OSU</a>
-              <p class = "item_paragrafo">
-                Este é um projeto de programação em pygame. O objetivo é clicar nos círculos na tela no timing correto, acumulando pontos. O jogo foi feito em 4 meses, e tem um nível de dificuldade alto.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img class = "item_imagem" src="https://picsum.photos/110/80/?random" alt = "Carro em loop">
-            <div class="titulo_descricao"><a class="link" href="projeto.html">Carro em Loop</a>
-              <p class = "item_paragrafo">  Este é um projeto de física e de matemática. O projeto consistia na modelagem de um carro em loop, passando por diagramas de corpo livre, fórmulas matemáticas e programação em python.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img class = "item_imagem" src="https://picsum.photos/110/80/?random" alt = "Portfólio">
-            <div class="titulo_descricao"><a class="link" href="projeto.html">Portfólio</a>
-              <p class = "item_paragrafo">
-                Este projeto que agrega conceitos de design tem por objetivo a apresentação de um portfpolio hipotético de um aluno de engenharia, cujos projetos serão classificados em categorias distintas e explicados por meio de imagens e destos descritivos.
-              </p>
-            </div>
-          </div>
-        </li>
+        {{/each}}
       </ul>
     </div>
   </main>
