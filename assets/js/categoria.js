@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
   let db = coDesConnect("https://projeto-afs.firebaseio.com/");
   db.download("/", function(data) {
     context = data["portfolio"][value]
+    for(let projetos in context.projetos){
+    	context["projetos"][projetos]["categorias"]=value;
+    }
     coDesReplace('.body', context)
   });
 })
