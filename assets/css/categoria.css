@@ -11,28 +11,26 @@
   height: 7rem;
 }
 
-
+.item_imagem {
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+  border-radius: 100%;
+}
 
 .topicos {
   display: flex;
 }
 
-.intro {
-  display: flex;
-  justify-content: center;
-  border-style: solid;
-  line-height: 2.5rem;
-}
-
 .item {
   display: flex;
   flex-direction: row;
-  margin: 3rem;
+  margin: 4rem;
   align-items: center;
 }
 
 .titulo_descricao {
   font-family: "Montserrat";
+  margin-left: 3rem;
   line-height: 1.25rem;
   color: #34548c;
 }
