@@ -11,6 +11,7 @@
   height: 7rem;
 }
 
+<<<<<<< HEAD
 .item_imagem {
   width: 10rem;
   height: 10rem;
@@ -19,6 +20,9 @@
   border-radius: 100%;
 
 }
+=======
+
+>>>>>>> 850fc14a85989b18863f42ccb669e9658ad60c1e
 
 .topicos {
   display: flex;
