@@ -11,12 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body class="body">
-  <div class="titulo">
-    <br>
-    <p class = "sec_t">
+    <div class="titulo"><p class = "sec_t">
       {{this.titulo}}
     </p>
   </div>
+  
   <div class="imagem_texto">
     <img class = "imagem_projeto" src="https://picsum.photos/110/110/?random" alt="{{this.titulo}}">
 
@@ -37,12 +36,12 @@
   </div>
   <div class = "equipeblock">
     <h2 class= "equipetitle">Equipe</h2>
-    <div class = "equipes">
+    <div class = "equipes"><div class="seta_direita"></div>
       {{#each this.equipes}}
       <div class = "equipem1">
         <img class = "equipei" src="assets/img/equipe.png" alt="imagens dos membros da equipe">
         <p>{{this}}</p>
-      </div>
+      <div></div class="seta_esquerda"></div>
       {{/each}}
     </div>
   </div>
