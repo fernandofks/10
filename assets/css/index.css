@@ -49,6 +49,8 @@
 
 .categoria_imagem {
   width: 80%;
+  border-radius: 100%;
+  margin-top: 2rem
 }
 
 .categorias {
