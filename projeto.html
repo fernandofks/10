@@ -14,14 +14,11 @@
 
 </head>
 <body class="body">
-  <var> 
-
-  <div class="titulo">
-    <br>
-    <p class = "sec_t">
+    <div class="titulo"><p class = "sec_t">
       {{this.titulo}}
     </p>
   </div>
+
   <div class="imagem_texto">
     <img class = "imagem_projeto" src={{this.imagem}} alt="{{this.titulo}}">
 
@@ -29,7 +26,7 @@
 
       <h2 class = "sec_ts">Descrição</h2>
       <br>
-      <p>
+      <p class="descricao">
         {{this.descricao}}
       </p>
       <br>
@@ -42,12 +39,12 @@
   </div>
   <div class = "equipeblock">
     <h2 class= "equipetitle">Equipe</h2>
-    <div class = "equipes">
+    <div class = "equipes"><div class="seta_direita"></div>
       {{#each this.equipes}}
       <div class = "equipem1">
         <img class = "equipei" src={{this.equipei}} alt="imagens dos membros da equipe">
         <p>{{this}}</p>
-      </div>
+      <div></div class="seta_esquerda"></div>
       {{/each}}
     </div>
   </div>

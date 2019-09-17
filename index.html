@@ -36,8 +36,9 @@
 					
 				<div class="categorias">
 					{{#each portfolio}}
-					<div class="alinhamento"><a class="nome_categoria" href="categoria.html?categoria={{this.categoria}}" title="{{this.categoria}}">{{this.categoria}}</a>
-						<img class="categoria_imagem" src="assets/img/{{this.categoria}}.jpg" alt="{{this.categoria}}">
+					<div class="alinhamento"><a class="nome_categoria" href="categoria.html?categoria={{this.categoria}}" title="{{this.categoria}}">
+						<img class="categoria_imagem" src="assets/img/{{this.categoria}}.jpg" alt="{{this.categoria}}"><p class="a_categoria">{{this.categoria}}</p>
+					</a>
 					</div>
 						
 					{{/each}}
