@@ -7,8 +7,8 @@
   font-family: "Lora", serif;
   font-size: 3rem;
   line-height: 2rem;
-  color: #A53E03;
-  margin-top:3rem;
+  color: #a53e03;
+  margin-top: 3rem;
 }
 
 .sec_ts {
@@ -24,7 +24,7 @@
   margin-top: 2rem;
   margin-left: 10rem;
   margin-right: 10rem;
-  color: #2E5574    ;
+  color: #2e5574;
 }
 .titulo {
   display: flex;
@@ -43,10 +43,10 @@
 .imagem_projeto {
   width: 30%;
   height: 30%;
-  margin:auto;
+  margin: auto;
 }
 
-.equipeblock {
+. =block {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
@@ -60,23 +60,25 @@
   font-family: "Lora", serif;
   font-size: 2rem;
   line-height: 1.5;
-  color: #C43A03;
-   margin-bottom: 3rem;
+  color: #c43a03;
+  margin-bottom: 3rem;
 }
 
 .equipes {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-   
 }
 
-.equipem1,.equipem2,.equipem3,.equipem4 {
+.equipem1,
+.equipem2,
+.equipem3,
+.equipem4 {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 2;
-  color: #2E5574;
+  color: #2e5574;
   /* background-color: blue; */
 }
 
@@ -87,92 +89,204 @@
 
 .body {
   font-family: "Montserrat";
-  background-color: #F2E9D8;
+  background-color: #f2e9d8;
 }
 
-@media (max-width:66rem ){
-
+@media (max-width: 66rem) {
   .imagem_texto {
-  display: flex;
-  flex-direction: column;
-  align-items:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .imagem_projeto{
-  margin-bottom: 2rem;
-  margin-top: 10rem;
-  width:70%;
+  .imagem_projeto {
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+    width: 70%;
   }
 
- .geral{
-  display:flex;
-  text-align: left;
-  justify-content: center;
-  position:relative;
-  left:-14rem;
-}
+  .geral {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    position: relative;
+    left: -14rem;
+  }
 
-.equipem2,.equipem3,.equipem4 {
-  display: none
-}
+  .equipem2,
+  .equipem3,
+  .equipem4 {
+    display: none;
+  }
 
-.equipes {
-  display: flex;
-  flex-direction: column;
-  /* background-color: black; */
-}
+  .equipes {
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+  }
 
-.equipei {
-  /* background-color: blue; */
-  width: 10%;
-}
+  .equipei {
+    /* background-color: blue; */
+    width: 10%;
+  }
 
-.body{
-  display:flex;
-  font-size: 3rem;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-content:center; 
-  align-items:center;
-  text-align:center;
+  .body {
+    display: flex;
+    font-size: 3rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .equipetitle {
+    font-size: 5rem;
+  }
+
+  .sec_t {
+    font-size: 4rem;
+    width: 40rem;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .sec_ts {
+    font-size: 5rem;
+    line-height: 5rem;
+    align-self: center;
+  }
+  .descricao {
+    width: 50rem;
+  }
+  .seta_direita {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+
+
+
   
-}
-.equipetitle{
-  font-size: 5rem;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-.sec_t {
-  font-size: 4rem;
-  width:40rem;
-  line-height: 1.2;
-  margin-top:2rem;
-}
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
 
-.sec_ts {
-  font-size: 5rem;
-  line-height: 5rem;
-  align-self: center;
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
 
-}
-.descricao{
-  width:50rem;
-}
-.seta_direita{
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-}
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -rem;
+    padding: 1rem;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 6rem;
+    transition: 0.6s ease;
+    border-radius: 0 2rem 2rem 0;
+    user-select: none;
+  }
 
+  /* Position the "next button" to the right */
+  .next {
+    right: -10rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .prev {
+    left: -10rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: grey;
+  }
+
+  /* Caption text */
+  .text {
+    color: #183248;
+    font-size: 3rem;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 2rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 }
-
-
