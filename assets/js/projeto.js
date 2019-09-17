@@ -12,15 +12,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let i=0;
 
     for (let nome of retorno){
-
-    	context["equipes"][i]=nome;
+      let membro = {}
+      membro["nome"] = nome;
+      membro["equipei"] = context['equipei']
+    	context["equipes"][i]=membro;
+      // context["equipes"]["equipei"]=context["equipei"]
     	i=i+1;
     }
     console.log(context)
     coDesReplace('.body', context)
-  
-
-
   });
-
 })
