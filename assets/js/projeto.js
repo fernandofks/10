@@ -39,17 +39,20 @@ document.addEventListener("DOMContentLoaded", function() {
     context = data["portfolio"][categoria]["projetos"][projeto];
 
     var retorno = context["equipe"].split(",");
-    context["equipes"] = {};
-    let i = 0;
+    context["equipes"]={}
+    let i=0;
 
-    for (let nome of retorno) {
-      context["equipes"][i] = nome;
-      i = i + 1;
+    for (let nome of retorno){
+      let membro = {}
+      membro["nome"] = nome;
+      membro["equipei"] = context['equipei']
+    	context["equipes"][i]=membro;
+    	i=i+1;
     }
-    console.log(context);
-    coDesReplace(".body", context);
+    console.log(context)
+    coDesReplace('.body', context)
 
     slideIndex = 1;
     showSlides(slideIndex);
   });
-});
+})
