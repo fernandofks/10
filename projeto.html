@@ -5,12 +5,17 @@
   <meta charset="utf-8"/>
   <script src="assets/js/codes.js"></script>
   <script src="assets/js/projeto.js"></script>
-  <link href = "assets/css/reset.css" rel = "stylesheet"/>
-  <link href = "assets/css/projeto.css" rel = "stylesheet"/>
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script> -->
+  <link href="assets/css/reset.css" rel = "stylesheet"/>
+  <link href="assets/css/projeto.css" rel = "stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+
 </head>
 <body class="body">
+  <var> 
+
   <div class="titulo">
     <br>
     <p class = "sec_t">
@@ -18,7 +23,7 @@
     </p>
   </div>
   <div class="imagem_texto">
-    <img class = "imagem_projeto" src="https://picsum.photos/110/110/?random" alt="{{this.titulo}}">
+    <img class = "imagem_projeto" src={{this.imagem}} alt="{{this.titulo}}">
 
     <div class = 'geral'>
 
@@ -40,7 +45,7 @@
     <div class = "equipes">
       {{#each this.equipes}}
       <div class = "equipem1">
-        <img class = "equipei" src="assets/img/equipe.png" alt="imagens dos membros da equipe">
+        <img class = "equipei" src={{this.equipei}} alt="imagens dos membros da equipe">
         <p>{{this}}</p>
       </div>
       {{/each}}
