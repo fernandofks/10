@@ -38,12 +38,16 @@ document.addEventListener("DOMContentLoaded", function() {
   db.download("/", function(data) {
     context = data["portfolio"][categoria]["projetos"][projeto];
 
+    //separa os nomes dos integrantes da equipe em uma lista
     var nomes = context["equipe"].split(",");
+    //separa os links das imagens dos integrantes em uma lista (estão equivalentes à ordem que os nomes foram escritos)
     var fotos = context["equipei"].split(",");
+    //adiciona a chave equipes ao projeto
     context["equipes"]={}
     let i=0;
 
     for (let nome of nomes){
+      //cria um dicionario do membro que conterá o nome e o link da sua foto
       let membro = {}
       membro["nome"] = nome;
       membro["equipei"] = fotos[nomes.indexOf(nome)]

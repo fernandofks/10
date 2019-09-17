@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>jogo</title>
+  <title>projeto</title>
   <meta charset="utf-8"/>
   <script src="assets/js/codes.js"></script>
   <script src="assets/js/projeto.js"></script>
-  <!-- <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script> -->
   <link href="assets/css/reset.css" rel = "stylesheet"/>
   <link href="assets/css/projeto.css" rel = "stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
@@ -92,7 +91,7 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="{{this.equipei}}" style="width:100%">
+    <img class="equipei" src="{{this.equipei}}">
     <div class="text">{{this.nome}}</div>
   </div>
 {{/each}}
@@ -110,7 +109,7 @@
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 </div>
-  
+
 
 </body>
 </html>
