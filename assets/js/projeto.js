@@ -38,14 +38,15 @@ document.addEventListener("DOMContentLoaded", function() {
   db.download("/", function(data) {
     context = data["portfolio"][categoria]["projetos"][projeto];
 
-    var retorno = context["equipe"].split(",");
+    var nomes = context["equipe"].split(",");
+    var fotos = context["equipei"].split(",");
     context["equipes"]={}
     let i=0;
 
-    for (let nome of retorno){
+    for (let nome of nomes){
       let membro = {}
       membro["nome"] = nome;
-      membro["equipei"] = context['equipei']
+      membro["equipei"] = fotos[nomes.indexOf(nome)]
     	context["equipes"][i]=membro;
     	i=i+1;
     }
