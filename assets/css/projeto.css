@@ -173,10 +173,6 @@
     user-select: none;
   }
 
-
-
-
-  
   * {
     box-sizing: border-box;
   }
@@ -233,7 +229,7 @@
     font-size: 3rem;
     padding: 8px 12px;
     position: absolute;
-    bottom: 1rem;
+    bottom: -10rem;
     width: 100%;
     text-align: center;
   }
