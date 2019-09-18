@@ -15,6 +15,9 @@
   margin-bottom: 2rem;
   margin-top: 2.5rem;
   border-radius: 100%;
+  max-width:10rem;
+  height:10rem;
+  
 }
 
 .topicos {
@@ -42,6 +45,7 @@
 .body {
   font-family: "Lora", sans-serif;
   background-color: #f2e9d8;
+
 }
 
 .link{

@@ -24,14 +24,14 @@
 
       <ul>
         {{#each projetos}}
-        <li>
+  
           <div class="item">
             <img class = "item_imagem" src="{{this.imagem}}" alt = "{{this.titulo}}">
             <div class="titulo_descricao"><a class="link" href="projeto.html?categoria={{this.categorias}}&projeto={{@key}}">{{this.titulo}}</a>
               <p class = "item_paragrafo"> {{this.descricao}} </p>
             </div>
           </div>
-        </li>
+        
         {{/each}}
       </ul>
     </div>
