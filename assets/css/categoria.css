@@ -93,4 +93,9 @@
     align-items: left;
     text-align: left;
   }
+
+  .item_paragrafo{
+    max-width: 10rem;
+
+  }
 }
