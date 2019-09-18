@@ -21,12 +21,12 @@
 
   <main>
     <div>
-      
+
       <ul>
         {{#each projetos}}
         <li>
           <div class="item">
-            <img class = "item_imagem" src="https://picsum.photos/110/110/?random" alt = "{{this.titulo}}">
+            <img class = "item_imagem" src="{{this.imagem}}" alt = "{{this.titulo}}">
             <div class="titulo_descricao"><a class="link" href="projeto.html?categoria={{this.categorias}}&projeto={{@key}}">{{this.titulo}}</a>
               <p class = "item_paragrafo"> {{this.descricao}} </p>
             </div>
