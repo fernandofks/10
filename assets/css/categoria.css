@@ -15,22 +15,19 @@
   margin-bottom: 2rem;
   margin-top: 2.5rem;
   border-radius: 100%;
-  max-width: 13rem;
-  height: 13rem
+  max-width:10rem;
+  height:10rem;
 }
 
 .topicos {
   display: flex;
-  justify-content: center;
-  text-justify: center;
-  justify-items: center;
-  flex-direction: column;
 }
 
 .item {
   display: flex;
   flex-direction: row;
-  margin: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   align-items: center;
 }
 
@@ -39,7 +36,6 @@
   margin-left: 3rem;
   line-height: 1.25rem;
   color: #34548c;
-  width: 40rem;
 }
 
 .tamanho_categoria {
@@ -47,12 +43,9 @@
   line-height: 2.5rem;
 }
 .body {
-  display:flex;
   font-family: "Lora", sans-serif;
   background-color: #f2e9d8;
-  justify-content: center;
-  justify-items: center;
-  flex-direction: column;
+
 }
 
 .link{
@@ -85,6 +78,9 @@
     border-radius: 100%;
   }
 
+.item_paragrafo{
+  text-align: left;
+}
   .titulo_descricao {
     font-family: "Montserrat";
     margin-left: 0;
@@ -96,6 +92,5 @@
 
   .item_paragrafo{
     max-width: 10rem;
-
   }
 }
