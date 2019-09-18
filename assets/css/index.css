@@ -94,6 +94,7 @@
   justify-content: space-around;
   width: 100%;
   margin-bottom: 3rem;
+  max-width: 55rem;
 }
 .palavra_categoria {
   margin: 3rem;
