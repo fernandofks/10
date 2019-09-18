@@ -106,7 +106,6 @@ margin-top: 4rem;
   .imagem_texto {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .titulo {
@@ -126,9 +125,8 @@ margin-top: 4rem;
   .geral {
     display: flex;
     text-align: left;
-    justify-content: center;
-    position: relative;
-    left: -14rem;
+    align-items: center;
+    position:relative;
   }
 
   .equipes {
