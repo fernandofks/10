@@ -73,4 +73,13 @@
     height: 8rem;
     border-radius: 100%;
   }
+.item_paragrafo{
+  text-align: left;
+}
+  .titulo_descricao {
+  font-family: "Montserrat";
+  margin-left: 0rem;
+  line-height: 1.25rem;
+  color: #34548c;
+}
 }
