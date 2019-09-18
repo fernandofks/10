@@ -19,6 +19,10 @@
 
 .topicos {
   display: flex;
+  justify-content: center;
+  text-justify: center;
+  justify-items: center;
+  flex-direction: column;
 }
 
 .item {
@@ -33,6 +37,7 @@
   margin-left: 3rem;
   line-height: 1.25rem;
   color: #34548c;
+  width: 40rem;
 }
 
 .tamanho_categoria {
@@ -40,8 +45,12 @@
   line-height: 2.5rem;
 }
 .body {
+  display:flex;
   font-family: "Lora", sans-serif;
   background-color: #f2e9d8;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
 }
 
 .link{
@@ -72,5 +81,14 @@
     width: 8rem;
     height: 8rem;
     border-radius: 100%;
+  }
+
+  .titulo_descricao {
+    font-family: "Montserrat";
+    margin-left: 0;
+    line-height: 1.25rem;
+    color: #34548c;
+    align-items: left;
+    text-align: left;
   }
 }
