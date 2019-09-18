@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>jogo</title>
+  <title>projeto</title>
   <meta charset="utf-8"/>
   <script src="assets/js/codes.js"></script>
   <script src="assets/js/projeto.js"></script>
-  <link href = "assets/css/reset.css" rel = "stylesheet"/>
-  <link href = "assets/css/projeto.css" rel = "stylesheet"/>
+  <link href="assets/css/reset.css" rel = "stylesheet"/>
+  <link href="assets/css/projeto.css" rel = "stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+
 </head>
 <body class="body">
-  <div class="titulo">
-    <br>
-    <p class = "sec_t">
+    <div class="titulo"><p class = "sec_t">
       {{this.titulo}}
     </p>
   </div>
+
   <div class="imagem_texto">
-    <img class = "imagem_projeto" src="https://picsum.photos/110/110/?random" alt="{{this.titulo}}">
+    <img class = "imagem_projeto" src={{this.imagem}} alt="{{this.titulo}}">
 
     <div class = 'geral'>
 
       <h2 class = "sec_ts">Descrição</h2>
       <br>
-      <p>
+      <p class="descricao">
         {{this.descricao}}
       </p>
       <br>
@@ -37,14 +38,83 @@
   </div>
   <div class = "equipeblock">
     <h2 class= "equipetitle">Equipe</h2>
-    <div class = "equipes">
+    <div class="posicao_setas">
+    <!-- <div class = "equipes"><div class="seta_direita"></div>
       {{#each this.equipes}}
+
       <div class = "equipem1">
-        <img class = "equipei" src="assets/img/equipe.png" alt="imagens dos membros da equipe">
-        <p>{{this}}</p>
+        <img class = "equipei" src={{this.equipei}} alt="imagens dos membros da equipe">
+        <p>{{this.nome}}</p>
+      <div></div class="seta_esquerda"></div>
+      {{/each}}
+
+      assets/img/esquerda.svg'-->
+
+
+
+
+    <!-- <div class="carousel">
+      <button class="botao_carousel--esquerda">
+        <img src = ''  alt = ''>
+      </button>
+      <div class="carousel_container">
+        <ul class="track">
+          <li class="slide">
+            <img class= 'img_carousel' src = 'assets/img/equipe.png' alt = ''>
+          </li>
+          <li class="slide">
+            <img class= 'img_carousel' src = 'assets/img/equipe.png' alt = ''>
+          </li>
+          <li class="slide">
+            <img class= 'img_carousel' src = 'assets/img/equipe.png' alt = ''>
+          </li>
+          <li class="slide">
+            <img class= 'img_carousel' src = 'assets/img/equipe.png' alt = ''>
+          </li>
+        </ul>
+      </div>
+      <button class="botao_carousel--direita">
+        <img src = '' alt = ''>
+      </button>
+
+      <div class="carousel_nav">
+        <button class="carousel_indic"></button>
+        <button class="carousel_indic"></button>
+        <button class="carousel_indic"></button>
+      </div>
+
+    </div>
+
+    </div> -->
+    <!-- Slideshow container -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<div class="slideshow-container">
+{{#each this.equipes}}
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img class="equipei" src="{{this.equipei}}">
+    <div class="text">{{this.nome}}</div>
+  </div>
+{{/each}}
+</div>
+  <!-- Next and previous buttons -->
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div class = "equipes">
+      {{#each this.equipes}}
+
+      <div class = "equipem1">
+        <img class = "equipei" src={{this.equipei}} alt="imagens dos membros da equipe">
+        <p>{{this.nome}}</p>
       </div>
       {{/each}}
-    </div>
-  </div>
+</div>
+
+
+<br>
+</div>
+
+
+
 </body>
 </html>

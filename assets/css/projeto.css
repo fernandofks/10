@@ -7,7 +7,8 @@
   font-family: "Lora", serif;
   font-size: 3rem;
   line-height: 2rem;
-  color: #A53E03;
+  color: #a53e03;
+  margin-top: 3rem;
 }
 
 .sec_ts {
@@ -17,13 +18,19 @@
   color: #183248;
 }
 
+.posicao_setas{
+  display:none;
+  flex-direction: row;
+  align-items: center;
+}
+
 .imagem_texto {
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
   margin-left: 10rem;
   margin-right: 10rem;
-  color: #2E5574    ;
+  color: #2e5574;
 }
 .titulo {
   display: flex;
@@ -42,10 +49,10 @@
 .imagem_projeto {
   width: 30%;
   height: 30%;
-  margin:auto;
+  margin: auto;
 }
 
-.equipeblock {
+. =block {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
@@ -59,21 +66,29 @@
   font-family: "Lora", serif;
   font-size: 2rem;
   line-height: 1.5;
-  color: #C43A03;
+  color: #c43a03;
+  margin-bottom: 3rem;
 }
 
 .equipes {
   display: flex;
   flex-direction: row;
-  /* background-color: black; */
+  justify-content: space-evenly;
 }
 
-.equipem1,.equipem2,.equipem3,.equipem4 {
+.equipeblock{
+margin-top: 4rem;
+}
+
+.equipem1,
+.equipem2,
+.equipem3,
+.equipem4 {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 2;
-  color: #2E5574;
+  color: #2e5574;
   /* background-color: blue; */
 }
 
@@ -84,57 +99,197 @@
 
 .body {
   font-family: "Montserrat";
-  background-color: #F2E9D8;
+  background-color: #f2e9d8;
 }
 
-@media (max-width:66rem ){
-
+@media (max-width: 66rem) {
   .imagem_texto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo {
   display: flex;
-  flex-direction: column;
-
-}
- .imagem_projeto{
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  width:70%;
- }
-
- .geral{
   text-align: center;
- }
-.equipem2,.equipem3,.equipem4 {
-  display: none
-}
-
-.equipes {
-  display: flex;
   flex-direction: column;
-  /* background-color: black; */
-}
-.equipei {
-  /* background-color: blue; */
-  width: 10%;
+  color: #f2c12e;
+  height: 0rem;
 }
 
-.body{
-  font-size: 3rem;
+  .imagem_projeto {
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+    width: 70%;
+  }
+
+  .geral {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    position:relative;
+  }
+
+  .equipes {
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+  }
+
+  .equipei {
+    /* background-color: blue; */
+    width: 100%;
+  }
+
+  .body {
+    display: flex;
+    font-size: 3rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .equipetitle {
+    font-size: 5rem;
+  }
+
+  .sec_t {
+    font-size: 4rem;
+    width: 40rem;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .sec_ts {
+    font-size: 5rem;
+    line-height: 5rem;
+    align-self: center;
+  }
+  .descricao {
+    width: 50rem;
+  }
+  .seta_direita {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: flex;
+    flex-direction: column;
+    height:30rem;
+
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    margin-top: -rem;
+    padding: 1rem;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 6rem;
+    transition: 0.6s ease;
+    border-radius: 0 2rem 2rem 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+   
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .prev {
+    
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: grey;
+  }
+
+  /* Caption text */
+  .text {
+    color: #183248;
+    font-size: 3rem;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -10rem;
+    width: 100%;
+    text-align: center;
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+.posicao_setas{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
 }
-.equipetitle{
-  font-size: 5rem;
+  /* The dots/bullets/indicators */
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+.equipes{
+  display:none;
 }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
 
-.sec_t {
-  font-size: 5rem;
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 }
-
-.sec_ts {
-  font-size: 5rem;
-  line-height: 5rem;
-
-}
-
-
-}
-
-
